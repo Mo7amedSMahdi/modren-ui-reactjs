@@ -91,3 +91,21 @@ a {
     transform: scale(1);
   }
 }
+
+@media screen and (min-width: 768px) {
+  .section--padding {
+    padding: 4rem;
+  }
+  .section--margin {
+    margin: 4rem;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .section--padding {
+    padding: 4rem 2rem;
+  }
+  .section--margin {
+    margin: 4rem 2rem;
+  }
+}
