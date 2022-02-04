@@ -11,12 +11,12 @@ import {
   WhatGPT3,
 } from "./containers";
 //!import components all from ./components folder inside src
-import { Brand, CTA, NavBar } from "./component";
+import { Brand, CTA, NavBar } from "./components";
 
 function App() {
   return (
     <div className="App">
-      <div className="gradiant--bg">
+      <div className="gradient--bg">
         <NavBar />
         <Header />
       </div>
