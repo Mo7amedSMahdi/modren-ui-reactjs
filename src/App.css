@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  font-family: var(--font-family);
+  color: #fff;
 }
 
 body {
@@ -50,18 +52,18 @@ a {
   );
 }
 
-.gradient--text {
+.gradient__text {
   background: var(--gradient-text);
   background-clip: text;
-  --webkit-backround-clip: text;
-  --webkit-background-text: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.section--padding {
+.section__padding {
   padding: 4rem 6rem;
 }
 
-.section--margin {
+.section__margin {
   margin: 4rem 6rem;
 }
 
