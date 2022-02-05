@@ -16,7 +16,7 @@ import { Brand, CTA, NavBar } from "./components";
 function App() {
   return (
     <div className="App">
-      <div className="gradient--bg">
+      <div className="gradient__bg">
         <NavBar />
         <Header />
       </div>

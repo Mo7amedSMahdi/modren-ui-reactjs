@@ -14,7 +14,7 @@ a {
   text-decoration: none;
 }
 
-.gradient--bg {
+.gradient__bg {
   background: -moz-radial-gradient(
     circle at 3% 25%,
     rgba(0, 40, 83, 1) 0%,
