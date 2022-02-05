@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 //?import containers all from ./containers folder inside src

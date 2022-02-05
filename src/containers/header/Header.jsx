@@ -21,12 +21,12 @@ const Header = () => {
           <button type="button">Get Started</button>
         </div>
         <div className="gpt3__header-content__people">
-          <img src={people} />
+          <img src={people} alt="header-people" />
           <p>1,600 people requested access a visit in last 24 hours</p>
         </div>
       </div>
       <div className="gpt3__header-image">
-        <img src={ai} />
+        <img src={ai} alt="header-ai" />
       </div>
     </div>
   );
