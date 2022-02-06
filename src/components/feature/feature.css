@@ -19,6 +19,7 @@
   line-height: 24px;
   letter-spacing: -0.04em;
   color: #fff;
+  margin-top: 0.5rem;
 }
 .gpt3__features-container__feature-title div {
   width: 38px;
@@ -38,4 +39,32 @@
   font-size: 14px;
   line-height: 24px;
   color: var(--color-text);
+}
+
+@media screen and (max-width: 850px) {
+  .gpt3__whatgpt3-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0rem;
+  }
+
+  .gpt3__whatgpt3-heading p {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3__features-container__feature-title h1 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .gpt3__features-container_feature-text p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .gpt3__features-container__feature {
+    margin: 1rem 0;
+  }
 }
