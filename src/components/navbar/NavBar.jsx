@@ -28,6 +28,9 @@ const NavBar = () => {
           <p>
             <a href="#blog">Library</a>
           </p>
+          <p>
+            <a href="#blog">Library1</a>
+          </p>
         </div>
       </div>
       <div className="gpt3__navbar-sign">
